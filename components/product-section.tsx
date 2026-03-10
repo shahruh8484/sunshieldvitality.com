@@ -44,8 +44,8 @@ export function ProductSection() {
           <div className="relative">
             <div className="aspect-square bg-gradient-to-br from-accent/30 to-primary/10 rounded-2xl flex items-center justify-center p-4 overflow-hidden">
               <Image
-                src="/images/d3k2-softgels.jpg"
-                alt="Vitamin D3 K2 10,000 IU Softgels - 300 count bottle with golden softgels"
+                src="https://m.media-amazon.com/images/I/61hYvjxdauL._AC_SX679_.jpg"
+                alt="Realgood Essentials Vitamin D3 K2 10,000 IU 2-in-1 Extra Strength 300 Softgels"
                 width={400}
                 height={400}
                 className="object-contain rounded-lg"
