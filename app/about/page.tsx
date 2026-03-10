@@ -1,44 +1,44 @@
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 import { Card, CardContent } from "@/components/ui/card"
-import { Beaker, Brain, Heart, Pill, Users, Leaf } from "lucide-react"
+import { Sun, Bone, Heart, Shield, Users, Leaf } from "lucide-react"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "About Vitamin B-12 | B12 Vitality Hub",
-  description: "Learn about Vitamin B-12, its benefits, sources, and why supplementation may be important for your health and wellness.",
+  title: "About Vitamin D3 K2 | SunShield Vitality",
+  description: "Learn about Vitamin D3 K2, their synergistic benefits, sources, and why supplementation may be important for your immune and bone health.",
 }
 
-const b12Facts = [
+const d3k2Facts = [
   {
-    icon: Brain,
-    title: "Neurological Function",
-    description: "Vitamin B-12 is essential for maintaining healthy nerve cells and supporting proper neurological function throughout the body."
+    icon: Sun,
+    title: "The Sunshine Vitamin",
+    description: "Vitamin D3 is produced when your skin is exposed to sunlight. Many people are deficient due to indoor lifestyles, sunscreen use, and northern climates."
+  },
+  {
+    icon: Bone,
+    title: "Bone Health Support",
+    description: "D3 enhances calcium absorption while K2 directs calcium to bones and teeth, preventing it from accumulating in arteries and soft tissues."
+  },
+  {
+    icon: Shield,
+    title: "Immune Function",
+    description: "Vitamin D3 plays a crucial role in modulating the immune system, supporting both innate and adaptive immune responses."
   },
   {
     icon: Heart,
-    title: "Red Blood Cell Formation",
-    description: "B-12 plays a vital role in the production of red blood cells, which carry oxygen throughout your body."
-  },
-  {
-    icon: Beaker,
-    title: "DNA Synthesis",
-    description: "This vitamin is crucial for DNA synthesis, the process by which your body creates new cells."
-  },
-  {
-    icon: Pill,
-    title: "Energy Metabolism",
-    description: "B-12 helps convert the food you eat into glucose, providing energy for your daily activities."
+    title: "Cardiovascular Support",
+    description: "Vitamin K2 helps maintain arterial flexibility by preventing calcium buildup in blood vessel walls, supporting heart health."
   },
   {
     icon: Users,
     title: "Who May Need More",
-    description: "Vegetarians, vegans, older adults, and those with certain digestive conditions may benefit from B-12 supplementation."
+    description: "Those with limited sun exposure, darker skin tones, older adults, and people in northern latitudes often benefit from D3 K2 supplementation."
   },
   {
     icon: Leaf,
     title: "Natural Sources",
-    description: "B-12 is naturally found in animal products like meat, fish, eggs, and dairy. Plant-based eaters may need to supplement."
+    description: "D3 is found in fatty fish, egg yolks, and fortified foods. K2 is found in fermented foods like natto, cheese, and grass-fed animal products."
   },
 ]
 
@@ -51,35 +51,36 @@ export default function AboutPage() {
           {/* Hero Section */}
           <div className="text-center mb-16">
             <h1 className="text-3xl md:text-4xl font-serif font-bold text-foreground mb-6">
-              About Vitamin B-12
+              About Vitamin D3 K2
             </h1>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-              Vitamin B-12, also known as cobalamin, is a water-soluble vitamin that plays essential 
-              roles in many bodily functions. Learn more about this important nutrient and why it 
-              matters for your health.
+              Vitamin D3 and K2 work together synergistically to support bone health, immune function, 
+              and cardiovascular wellness. Learn why this powerful combination has become one of the 
+              most important supplement pairings.
             </p>
           </div>
 
-          {/* What is B-12 */}
+          {/* What is D3 K2 */}
           <section className="mb-16">
             <h2 className="text-2xl font-serif font-bold text-foreground mb-6">
-              What is Vitamin B-12?
+              Understanding D3 and K2
             </h2>
             <div className="prose prose-neutral max-w-none">
               <p className="text-muted-foreground leading-relaxed mb-4">
-                Vitamin B-12 is one of eight B vitamins that help the body convert food into fuel, 
-                which is used to produce energy. Like other B vitamins, B-12 is water-soluble, meaning 
-                the body does not store it and excess amounts are excreted through urine.
+                <strong>Vitamin D3 (Cholecalciferol)</strong> is a fat-soluble vitamin that your body produces 
+                naturally when exposed to sunlight. It plays essential roles in calcium absorption, 
+                immune function, mood regulation, and cellular health. Unfortunately, many people 
+                worldwide are deficient due to limited sun exposure and modern indoor lifestyles.
               </p>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                B-12 is unique among vitamins because it contains a metal ion—cobalt. This is why 
-                compounds with vitamin B-12 activity are collectively called &quot;cobalamins.&quot; The most 
-                common forms in supplements are cyanocobalamin and methylcobalamin.
+                <strong>Vitamin K2 (Menaquinone)</strong>, particularly the MK-7 form, is essential for 
+                proper calcium metabolism. It activates proteins that direct calcium to bones and teeth 
+                while keeping it away from arteries and soft tissues where it could cause problems.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                Since B-12 is primarily found in animal products, individuals following plant-based 
-                diets or those with absorption issues may not get adequate amounts from food alone, 
-                making supplementation an important consideration.
+                When taken together, D3 and K2 work synergistically: D3 increases calcium absorption 
+                from food, while K2 ensures that calcium goes where it&apos;s needed most - your bones - 
+                rather than accumulating in blood vessels.
               </p>
             </div>
           </section>
@@ -90,7 +91,7 @@ export default function AboutPage() {
               Key Functions & Benefits
             </h2>
             <div className="grid md:grid-cols-2 gap-6">
-              {b12Facts.map((fact) => (
+              {d3k2Facts.map((fact) => (
                 <Card key={fact.title} className="border-border">
                   <CardContent className="pt-6">
                     <div className="flex items-start gap-4">
@@ -110,38 +111,43 @@ export default function AboutPage() {
             </div>
           </section>
 
-          {/* Why Oral Spray */}
+          {/* Why High Potency */}
           <section className="mb-16">
             <h2 className="text-2xl font-serif font-bold text-foreground mb-6">
-              Why Consider an Oral Spray?
+              Why 10,000 IU?
             </h2>
             <div className="bg-accent/30 rounded-xl p-6 md:p-8">
               <p className="text-muted-foreground leading-relaxed mb-4">
-                Vitamin B-12 oral sprays offer a convenient alternative to traditional capsules or 
-                tablets. The sublingual (under the tongue) delivery method allows the vitamin to be 
-                absorbed directly through the mucous membranes in the mouth.
+                While the recommended daily allowance (RDA) for Vitamin D is often set at 600-800 IU, 
+                many healthcare professionals suggest that higher doses may be needed to achieve optimal 
+                blood levels, especially for those who are deficient.
               </p>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                Some potential advantages of oral spray supplementation include:
+                Considerations for higher-dose supplementation:
               </p>
               <ul className="list-disc list-inside text-muted-foreground space-y-2">
-                <li>Easy to use—no water needed</li>
-                <li>Convenient for those who have difficulty swallowing pills</li>
-                <li>Pleasant flavors make daily supplementation enjoyable</li>
-                <li>Portable and travel-friendly</li>
+                <li>Individuals with documented Vitamin D deficiency</li>
+                <li>Those with limited sun exposure or darker skin tones</li>
+                <li>People living in northern latitudes</li>
+                <li>Older adults with reduced skin synthesis</li>
+                <li>Those with conditions affecting absorption</li>
               </ul>
+              <p className="text-muted-foreground leading-relaxed mt-4 text-sm">
+                <strong>Important:</strong> High-dose Vitamin D supplementation should be discussed with 
+                a healthcare provider. Regular monitoring of blood levels may be recommended.
+              </p>
             </div>
           </section>
 
           {/* About This Site */}
           <section className="mb-16">
             <h2 className="text-2xl font-serif font-bold text-foreground mb-6">
-              About B12 Vitality Hub
+              About SunShield Vitality
             </h2>
             <div className="prose prose-neutral max-w-none">
               <p className="text-muted-foreground leading-relaxed mb-4">
-                B12 Vitality Hub is dedicated to providing helpful, research-based information about 
-                Vitamin B-12 supplementation. Our goal is to help you make informed decisions about 
+                SunShield Vitality is dedicated to providing helpful, research-based information about 
+                Vitamin D3 K2 supplementation. Our goal is to help you make informed decisions about 
                 your health and wellness journey.
               </p>
               <p className="text-muted-foreground leading-relaxed">

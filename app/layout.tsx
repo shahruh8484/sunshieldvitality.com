@@ -15,13 +15,13 @@ const libreBaskerville = Libre_Baskerville({
 })
 
 export const metadata: Metadata = {
-  title: 'B12 Vitality Hub | Vitamin B-12 Oral Spray Guide',
-  description: 'Discover the benefits of Vitamin B-12 Oral Spray for energy, mental clarity, and overall wellness. Your comprehensive guide to B-12 supplementation.',
-  keywords: 'vitamin b12, b12 spray, vitamin b12 supplement, energy supplement, mental clarity',
-  authors: [{ name: 'B12 Vitality Hub' }],
+  title: 'SunShield Vitality | Vitamin D3 K2 Supplement Guide',
+  description: 'Discover the benefits of Vitamin D3 K2 10,000 IU for immune support, bone health, and overall wellness. Your comprehensive guide to D3 K2 supplementation.',
+  keywords: 'vitamin d3 k2, vitamin d3 10000 iu, vitamin d3 supplement, bone health, immune support, vitamin k2 mk7',
+  authors: [{ name: 'SunShield Vitality' }],
   openGraph: {
-    title: 'B12 Vitality Hub | Vitamin B-12 Oral Spray Guide',
-    description: 'Discover the benefits of Vitamin B-12 Oral Spray for energy, mental clarity, and overall wellness.',
+    title: 'SunShield Vitality | Vitamin D3 K2 Supplement Guide',
+    description: 'Discover the benefits of Vitamin D3 K2 10,000 IU for immune support, bone health, and overall wellness.',
     type: 'website',
     locale: 'en_US',
   },
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
 export const viewport: Viewport = {
   width: 'device-width',
   initialScale: 1,
-  themeColor: '#3d8b40',
+  themeColor: '#c97d24',
 }
 
 export default function RootLayout({

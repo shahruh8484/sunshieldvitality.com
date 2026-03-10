@@ -1,36 +1,36 @@
 import Image from "next/image"
-import { ExternalLink, Check, Leaf, Sparkles, Zap } from "lucide-react"
+import { ExternalLink, Check, Sun, Shield, Bone } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 
-const AMAZON_AFFILIATE_URL = "https://www.amazon.com/INNOTECH-Nutrition-Vitamin-B-12-Spray/dp/B0FT3X5NPX?tag=YOUR_ASSOCIATE_TAG"
+const AMAZON_AFFILIATE_URL = "https://www.amazon.com/dp/B0DXDG34ZN?tag=YOUR_ASSOCIATE_TAG"
 
 const features = [
-  "Sugar-Free Formula",
+  "10,000 IU Vitamin D3",
+  "200 mcg Vitamin K2 (MK-7)",
+  "300 Softgels Supply",
+  "Non-GMO Formula",
   "Gluten-Free",
-  "Dairy-Free",
-  "Vegan Friendly",
-  "Wheat-Free",
-  "Non-GMO",
-  "Wild Berry Flavor",
-  "30mL Convenient Size",
+  "Extra Strength 2-in-1",
+  "Easy to Swallow",
+  "Premium Quality",
 ]
 
 const benefits = [
   {
-    icon: Zap,
-    title: "Energy Support",
-    description: "Vitamin B-12 plays a crucial role in energy production, helping convert food into usable energy for your body."
+    icon: Shield,
+    title: "Immune Support",
+    description: "Vitamin D3 plays a crucial role in supporting your immune system, helping your body maintain its natural defenses year-round."
   },
   {
-    icon: Sparkles,
-    title: "Mental Clarity",
-    description: "Supports cognitive function and mental clarity, helping you stay focused and sharp throughout the day."
+    icon: Bone,
+    title: "Bone Health",
+    description: "The powerful combination of D3 and K2 works synergistically to support calcium absorption and promote healthy bones and teeth."
   },
   {
-    icon: Leaf,
-    title: "Clean Ingredients",
-    description: "Made with high-quality ingredients, free from common allergens and artificial additives."
+    icon: Sun,
+    title: "Energy & Mood",
+    description: "Adequate Vitamin D levels are associated with improved energy levels and overall sense of well-being, especially during winter months."
   },
 ]
 
@@ -44,8 +44,8 @@ export function ProductSection() {
           <div className="relative">
             <div className="aspect-square bg-gradient-to-br from-accent/30 to-primary/10 rounded-2xl flex items-center justify-center p-4 overflow-hidden">
               <Image
-                src="/images/b12-spray-hero.jpg"
-                alt="INNOTECH Nutrition Vitamin B-12 Oral Spray - 30mL bottle with spray nozzle"
+                src="/images/d3k2-softgels.jpg"
+                alt="Vitamin D3 K2 10,000 IU Softgels - 300 count bottle with golden softgels"
                 width={400}
                 height={400}
                 className="object-contain rounded-lg"
@@ -53,20 +53,21 @@ export function ProductSection() {
               />
             </div>
             <div className="absolute -top-4 -right-4 bg-primary text-primary-foreground text-xs font-medium px-3 py-1 rounded-full">
-              Featured Product
+              Best Value
             </div>
           </div>
 
           {/* Product Info */}
           <div>
-            <span className="text-sm font-medium text-primary mb-2 block">INNOTECH Nutrition</span>
+            <span className="text-sm font-medium text-primary mb-2 block">Premium Supplement</span>
             <h2 className="text-3xl md:text-4xl font-serif font-bold text-foreground mb-4 text-balance">
-              Vitamin B-12 Oral Spray
+              Vitamin D3 K2 10,000 IU Extra Strength
             </h2>
             <p className="text-muted-foreground leading-relaxed mb-6">
-              Experience the convenience of sublingual B-12 absorption with this easy-to-use oral spray. 
-              Designed for those who prefer an alternative to traditional capsules or tablets, 
-              this spray delivers Vitamin B-12 directly for efficient absorption.
+              Experience the powerful synergy of Vitamin D3 and K2 in one convenient softgel. 
+              This extra-strength formula combines 10,000 IU of Vitamin D3 with 200 mcg of Vitamin K2 (MK-7) 
+              to support immune function, bone health, and overall wellness. With 300 softgels per bottle, 
+              you get an exceptional value for nearly a year of daily supplementation.
             </p>
 
             {/* Features Grid */}
@@ -101,10 +102,10 @@ export function ProductSection() {
         <div className="mt-20">
           <div className="text-center mb-12">
             <h3 className="text-2xl md:text-3xl font-serif font-bold text-foreground mb-4">
-              Why Consider Vitamin B-12?
+              Why Vitamin D3 + K2?
             </h3>
             <p className="text-muted-foreground max-w-2xl mx-auto">
-              Vitamin B-12 is an essential nutrient that plays important roles in many bodily functions.
+              The combination of Vitamin D3 and K2 offers synergistic benefits that support multiple aspects of your health.
             </p>
           </div>
 
@@ -122,6 +123,29 @@ export function ProductSection() {
                 </CardContent>
               </Card>
             ))}
+          </div>
+        </div>
+
+        {/* Why D3 + K2 Together */}
+        <div className="mt-20 bg-muted/30 rounded-2xl p-8 md:p-12">
+          <h3 className="text-2xl font-serif font-bold text-foreground mb-6 text-center">
+            The Science Behind D3 + K2
+          </h3>
+          <div className="grid md:grid-cols-2 gap-8">
+            <div>
+              <h4 className="font-medium text-foreground mb-3">Vitamin D3 (Cholecalciferol)</h4>
+              <p className="text-sm text-muted-foreground leading-relaxed">
+                Vitamin D3 is the most bioavailable form of Vitamin D, naturally produced by your skin when exposed to sunlight. 
+                It helps your body absorb calcium from food and supplements, supporting bone mineralization and immune function.
+              </p>
+            </div>
+            <div>
+              <h4 className="font-medium text-foreground mb-3">Vitamin K2 (MK-7)</h4>
+              <p className="text-sm text-muted-foreground leading-relaxed">
+                Vitamin K2, particularly the MK-7 form, works alongside D3 to direct calcium to where it belongs - your bones and teeth - 
+                while helping to keep it away from arteries and soft tissues where it could cause problems.
+              </p>
+            </div>
           </div>
         </div>
 

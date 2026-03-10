@@ -2,7 +2,7 @@
 
 import Link from "next/link"
 import { useState } from "react"
-import { Menu, X } from "lucide-react"
+import { Menu, X, Sun } from "lucide-react"
 
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -14,10 +14,10 @@ export function Header() {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2">
             <div className="w-9 h-9 rounded-full bg-primary flex items-center justify-center">
-              <span className="text-primary-foreground text-xs font-bold">B12</span>
+              <Sun className="w-5 h-5 text-primary-foreground" />
             </div>
             <span className="font-serif font-bold text-lg text-foreground">
-              Vitality Hub
+              SunShield Vitality
             </span>
           </Link>
 
@@ -33,7 +33,7 @@ export function Header() {
               href="/about" 
               className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
             >
-              About B-12
+              About D3 K2
             </Link>
             <Link 
               href="/privacy-policy" 
@@ -81,7 +81,7 @@ export function Header() {
                 onClick={() => setIsMenuOpen(false)}
                 className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors py-2"
               >
-                About B-12
+                About D3 K2
               </Link>
               <Link 
                 href="/privacy-policy"

@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { Sun } from "lucide-react"
 
 export function Footer() {
   const currentYear = new Date().getFullYear()
@@ -22,14 +23,14 @@ export function Footer() {
           <div className="md:col-span-2">
             <Link href="/" className="flex items-center gap-2 mb-4">
               <div className="w-8 h-8 rounded-full bg-primary flex items-center justify-center">
-                <span className="text-primary-foreground text-xs font-bold">B12</span>
+                <Sun className="w-4 h-4 text-primary-foreground" />
               </div>
               <span className="font-serif font-bold text-lg text-foreground">
-                Vitality Hub
+                SunShield Vitality
               </span>
             </Link>
             <p className="text-sm text-muted-foreground leading-relaxed max-w-sm">
-              Your trusted resource for Vitamin B-12 supplementation information. 
+              Your trusted resource for Vitamin D3 K2 supplementation information. 
               We provide honest, research-based content to help you make informed decisions about your health.
             </p>
           </div>
@@ -45,7 +46,7 @@ export function Footer() {
               </li>
               <li>
                 <Link href="/about" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-                  About B-12
+                  About D3 K2
                 </Link>
               </li>
               <li>
@@ -83,7 +84,7 @@ export function Footer() {
         <div className="border-t border-border mt-8 pt-8">
           <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
             <p className="text-xs text-muted-foreground">
-              © {currentYear} B12 Vitality Hub. All rights reserved.
+              © {currentYear} SunShield Vitality. All rights reserved.
             </p>
             <p className="text-xs text-muted-foreground">
               As an Amazon Associate I earn from qualifying purchases.

@@ -8,18 +8,18 @@ import { BookOpen, Shield, Heart } from "lucide-react"
 const educationalContent = [
   {
     icon: BookOpen,
-    title: "What is Vitamin B-12?",
-    content: "Vitamin B-12 (cobalamin) is a water-soluble vitamin essential for red blood cell formation, neurological function, and DNA synthesis. It's naturally found in animal products and is often supplemented by those with dietary restrictions."
+    title: "What is Vitamin D3?",
+    content: "Vitamin D3 (cholecalciferol) is a fat-soluble vitamin that your body produces when exposed to sunlight. It's essential for calcium absorption, bone health, immune function, and mood regulation. Many people are deficient, especially during winter months."
   },
   {
     icon: Shield,
-    title: "Who May Benefit?",
-    content: "Individuals following vegetarian or vegan diets, older adults, and those with certain digestive conditions may have difficulty absorbing B-12 from food sources. Supplementation can help ensure adequate intake."
+    title: "Why Add Vitamin K2?",
+    content: "Vitamin K2 (MK-7) works synergistically with D3 to direct calcium to your bones and teeth while keeping it away from arteries. This combination maximizes the benefits of D3 supplementation and supports cardiovascular health."
   },
   {
     icon: Heart,
-    title: "Signs of B-12 Deficiency",
-    content: "Common signs may include fatigue, weakness, constipation, loss of appetite, and neurological changes. If you experience these symptoms, consult with a healthcare provider for proper evaluation."
+    title: "Who May Benefit?",
+    content: "Those with limited sun exposure, darker skin tones, older adults, and people living in northern latitudes often have lower D3 levels. If you spend most time indoors or use sunscreen regularly, supplementation may be beneficial."
   },
 ]
 
@@ -36,10 +36,10 @@ export default function HomePage() {
           <div className="max-w-6xl mx-auto px-4 sm:px-6">
             <div className="text-center mb-12">
               <h2 className="text-2xl md:text-3xl font-serif font-bold text-foreground mb-4">
-                Understanding Vitamin B-12
+                Understanding Vitamin D3 K2
               </h2>
               <p className="text-muted-foreground max-w-2xl mx-auto">
-                Educational information to help you make informed decisions about B-12 supplementation.
+                Educational information to help you make informed decisions about D3 K2 supplementation.
               </p>
             </div>
 

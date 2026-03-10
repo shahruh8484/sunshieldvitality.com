@@ -1,8 +1,8 @@
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Contact Us | B12 Vitality Hub",
-  description: "Get in touch with B12 Vitality Hub. Have questions about Vitamin B-12? We'd love to hear from you.",
+  title: "Contact Us | SunShield Vitality",
+  description: "Get in touch with SunShield Vitality. Have questions about Vitamin D3 K2? We'd love to hear from you.",
 }
 
 export default function ContactLayout({

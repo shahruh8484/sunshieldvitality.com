@@ -3,8 +3,8 @@ import { Footer } from "@/components/footer"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Terms of Service | B12 Vitality Hub",
-  description: "Terms of Service for B12 Vitality Hub. Read our terms and conditions for using our website.",
+  title: "Terms of Service | SunShield Vitality",
+  description: "Terms of Service for SunShield Vitality. Read our terms and conditions for using our website.",
 }
 
 export default function TermsPage() {
@@ -24,7 +24,7 @@ export default function TermsPage() {
             <section>
               <h2 className="text-xl font-semibold text-foreground mb-4">Agreement to Terms</h2>
               <p className="text-muted-foreground leading-relaxed">
-                By accessing or using B12 Vitality Hub (&quot;the Website&quot;), you agree to be bound by these 
+                By accessing or using SunShield Vitality (&quot;the Website&quot;), you agree to be bound by these 
                 Terms of Service (&quot;Terms&quot;). If you disagree with any part of these terms, you may not 
                 access the Website.
               </p>
@@ -33,8 +33,8 @@ export default function TermsPage() {
             <section>
               <h2 className="text-xl font-semibold text-foreground mb-4">Description of Service</h2>
               <p className="text-muted-foreground leading-relaxed">
-                B12 Vitality Hub is an informational website that provides educational content about 
-                Vitamin B-12 supplementation. We also participate in affiliate marketing programs, 
+                SunShield Vitality is an informational website that provides educational content about 
+                Vitamin D3 K2 supplementation. We also participate in affiliate marketing programs, 
                 including the Amazon Services LLC Associates Program, where we may earn commissions 
                 from qualifying purchases made through our links.
               </p>
@@ -43,7 +43,7 @@ export default function TermsPage() {
             <section>
               <h2 className="text-xl font-semibold text-foreground mb-4">Affiliate Disclosure</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                B12 Vitality Hub is a participant in the Amazon Services LLC Associates Program, an 
+                SunShield Vitality is a participant in the Amazon Services LLC Associates Program, an 
                 affiliate advertising program designed to provide a means for sites to earn advertising 
                 fees by advertising and linking to Amazon.com.
               </p>
@@ -84,7 +84,7 @@ export default function TermsPage() {
               <h2 className="text-xl font-semibold text-foreground mb-4">Intellectual Property Rights</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
                 Unless otherwise stated, we own the intellectual property rights for all original 
-                content on B12 Vitality Hub. All intellectual property rights are reserved.
+                content on SunShield Vitality. All intellectual property rights are reserved.
               </p>
               <p className="text-muted-foreground leading-relaxed">
                 You may not:
@@ -133,10 +133,10 @@ export default function TermsPage() {
             <section>
               <h2 className="text-xl font-semibold text-foreground mb-4">Limitation of Liability</h2>
               <p className="text-muted-foreground leading-relaxed">
-                In no event shall B12 Vitality Hub, nor any of its officers, directors, employees, 
+                In no event shall SunShield Vitality, nor any of its officers, directors, employees, 
                 or agents, be liable to you for anything arising out of or in any way connected with 
                 your use of this Website, whether such liability is under contract, tort, or otherwise. 
-                B12 Vitality Hub shall not be liable for any indirect, consequential, or special 
+                SunShield Vitality shall not be liable for any indirect, consequential, or special 
                 liability arising out of or in any way related to your use of this Website.
               </p>
             </section>
@@ -144,7 +144,7 @@ export default function TermsPage() {
             <section>
               <h2 className="text-xl font-semibold text-foreground mb-4">Indemnification</h2>
               <p className="text-muted-foreground leading-relaxed">
-                You agree to indemnify and hold harmless B12 Vitality Hub and its affiliates, officers, 
+                You agree to indemnify and hold harmless SunShield Vitality and its affiliates, officers, 
                 directors, employees, and agents from and against any claims, liabilities, damages, 
                 losses, and expenses, arising out of or in any way connected with your use of this 
                 Website or violation of these Terms.
