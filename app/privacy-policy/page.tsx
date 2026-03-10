@@ -3,8 +3,8 @@ import { Footer } from "@/components/footer"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | Realgood Essentials",
-  description: "Privacy Policy for Realgood Essentials. Learn how we collect, use, and protect your personal information.",
+  title: "Privacy Policy | SunShield Vitality",
+  description: "Privacy Policy for SunShield Vitality. Learn how we collect, use, and protect your personal information.",
 }
 
 export default function PrivacyPolicyPage() {
@@ -24,7 +24,7 @@ export default function PrivacyPolicyPage() {
             <section>
               <h2 className="text-xl font-semibold text-foreground mb-4">Introduction</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                Welcome to Realgood Essentials (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;). We are committed to protecting your 
+                Welcome to SunShield Vitality (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;). We are committed to protecting your 
                 privacy and ensuring the security of your personal information. This Privacy Policy explains 
                 how we collect, use, disclose, and safeguard your information when you visit our website.
               </p>
@@ -84,7 +84,7 @@ export default function PrivacyPolicyPage() {
               <h2 className="text-xl font-semibold text-foreground mb-4">Third-Party Services</h2>
               <h3 className="text-lg font-medium text-foreground mb-2">Amazon Associates Program</h3>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                Realgood Essentials is a participant in the Amazon Services LLC Associates Program, an 
+                SunShield Vitality is a participant in the Amazon Services LLC Associates Program, an 
                 affiliate advertising program designed to provide a means for sites to earn advertising 
                 fees by advertising and linking to Amazon.com.
               </p>

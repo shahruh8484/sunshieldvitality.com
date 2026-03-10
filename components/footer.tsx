@@ -26,7 +26,7 @@ export function Footer() {
                 <Sun className="w-4 h-4 text-primary-foreground" />
               </div>
               <span className="font-serif font-bold text-lg text-foreground">
-                Realgood Essentials
+                SunShield Vitality
               </span>
             </Link>
             <p className="text-sm text-muted-foreground leading-relaxed max-w-sm">
@@ -84,7 +84,7 @@ export function Footer() {
         <div className="border-t border-border mt-8 pt-8">
           <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
             <p className="text-xs text-muted-foreground">
-              © {currentYear} Realgood Essentials. All rights reserved.
+              © {currentYear} SunShield Vitality. All rights reserved.
             </p>
             <p className="text-xs text-muted-foreground">
               As an Amazon Associate I earn from qualifying purchases.
