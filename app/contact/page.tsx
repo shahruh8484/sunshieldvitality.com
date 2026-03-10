@@ -45,7 +45,7 @@ export default function ContactPage() {
                     <div>
                       <h3 className="font-medium text-foreground">Email</h3>
                       <p className="text-sm text-muted-foreground mt-1">
-                        contact@sunshieldvitality.com
+                        contact@realgood-essentials.com
                       </p>
                     </div>
                   </div>

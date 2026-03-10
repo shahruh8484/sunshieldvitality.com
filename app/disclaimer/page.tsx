@@ -3,8 +3,8 @@ import { Footer } from "@/components/footer"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Disclaimer | SunShield Vitality",
-  description: "Important disclaimers and disclosures for SunShield Vitality, including affiliate disclosure and health information disclaimer.",
+  title: "Disclaimer | Realgood Essentials",
+  description: "Important disclaimers and disclosures for Realgood Essentials, including affiliate disclosure and health information disclaimer.",
 }
 
 export default function DisclaimerPage() {
@@ -30,7 +30,7 @@ export default function DisclaimerPage() {
                 As an Amazon Associate I earn from qualifying purchases.
               </p>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                SunShield Vitality is a participant in the Amazon Services LLC Associates Program, 
+                Realgood Essentials is a participant in the Amazon Services LLC Associates Program, 
                 an affiliate advertising program designed to provide a means for sites to earn 
                 advertising fees by advertising and linking to Amazon.com.
               </p>
@@ -47,7 +47,7 @@ export default function DisclaimerPage() {
                 Health and Medical Disclaimer
               </h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                The content provided on SunShield Vitality is for informational and educational purposes 
+                The content provided on Realgood Essentials is for informational and educational purposes 
                 only. It is not intended to be a substitute for professional medical advice, diagnosis, 
                 or treatment.
               </p>
@@ -123,7 +123,7 @@ export default function DisclaimerPage() {
                 Limitation of Liability
               </h2>
               <p className="text-muted-foreground leading-relaxed">
-                SunShield Vitality and its owners, operators, and contributors shall not be held liable 
+                Realgood Essentials and its owners, operators, and contributors shall not be held liable 
                 for any damages arising from the use of this website or the products discussed herein. 
                 This includes, but is not limited to, direct, indirect, incidental, punitive, and 
                 consequential damages.

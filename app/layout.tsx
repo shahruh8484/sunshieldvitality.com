@@ -15,12 +15,12 @@ const libreBaskerville = Libre_Baskerville({
 })
 
 export const metadata: Metadata = {
-  title: 'SunShield Vitality | Vitamin D3 K2 Supplement Guide',
+  title: 'Realgood Essentials | Vitamin D3 K2 Supplement Guide',
   description: 'Discover the benefits of Vitamin D3 K2 10,000 IU for immune support, bone health, and overall wellness. Your comprehensive guide to D3 K2 supplementation.',
   keywords: 'vitamin d3 k2, vitamin d3 10000 iu, vitamin d3 supplement, bone health, immune support, vitamin k2 mk7',
-  authors: [{ name: 'SunShield Vitality' }],
+  authors: [{ name: 'Realgood Essentials' }],
   openGraph: {
-    title: 'SunShield Vitality | Vitamin D3 K2 Supplement Guide',
+    title: 'Realgood Essentials | Vitamin D3 K2 Supplement Guide',
     description: 'Discover the benefits of Vitamin D3 K2 10,000 IU for immune support, bone health, and overall wellness.',
     type: 'website',
     locale: 'en_US',

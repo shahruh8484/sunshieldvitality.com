@@ -5,7 +5,7 @@ import { Sun, Bone, Heart, Shield, Users, Leaf } from "lucide-react"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "About Vitamin D3 K2 | SunShield Vitality",
+  title: "About Vitamin D3 K2 | Realgood Essentials",
   description: "Learn about Vitamin D3 K2, their synergistic benefits, sources, and why supplementation may be important for your immune and bone health.",
 }
 
@@ -142,11 +142,11 @@ export default function AboutPage() {
           {/* About This Site */}
           <section className="mb-16">
             <h2 className="text-2xl font-serif font-bold text-foreground mb-6">
-              About SunShield Vitality
+              About Realgood Essentials
             </h2>
             <div className="prose prose-neutral max-w-none">
               <p className="text-muted-foreground leading-relaxed mb-4">
-                SunShield Vitality is dedicated to providing helpful, research-based information about 
+                Realgood Essentials is dedicated to providing helpful, research-based information about 
                 Vitamin D3 K2 supplementation. Our goal is to help you make informed decisions about 
                 your health and wellness journey.
               </p>

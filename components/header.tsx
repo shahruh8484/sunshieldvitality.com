@@ -17,7 +17,7 @@ export function Header() {
               <Sun className="w-5 h-5 text-primary-foreground" />
             </div>
             <span className="font-serif font-bold text-lg text-foreground">
-              SunShield Vitality
+              Realgood Essentials
             </span>
           </Link>
 
